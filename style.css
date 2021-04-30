@@ -1,0 +1,143 @@
+/*Colors and fonts */
+
+body {
+	background-color: #F7F9FC;
+	color: #00000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1,h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #e58278;
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+h2{
+	color: #e58278;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #e58278;
+	font-weight: bold;
+}
+a:hover{
+	color: #373741;
+}
+
+strong{
+	font-weight: bold;
+	color: #e58278;
+}
+
+/*custop design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+
+  .container {
+    width: 300px;
+
+  }
+}
+
+.card-white {
+	border: 3px double #373741;
+	background-color: white;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    padding: 40px;
+    border-radius: 100px 30px/50px 70px;
+    margin: 20px 0px;
+    text-align: center;
+
+    }
+
+ .small-card {
+ 	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin: 20px 0px;
+    text-align: center;
+ }
+
+ .img-alex{
+ 	width: 250px;
+ 	border-radius: 15%;
+ }
+
+ .img-illustration{
+ 	width: 150px;
+ }
+
+
+ .btn-noir{
+ 	background-color: #e58278;
+ 	color: #373741;
+ 	padding: 20px 20px;
+ 	border-radius: 5px;
+  font-size:13px;
+ }
+
+ .btn-noir:hover{
+ 	background-color: #373741;
+ 	color: #e58278;
+ }
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.logos__logo {
+    object-fit: contain;
+    height: 80px;
+    width: 100px;
+    margin: 0 20px;
+    opacity: 0.8;
+}
+
